@@ -46,65 +46,69 @@
             </div>
             <div id="form-group">
                 <div id="dropdown2">
-                    <label>Would you recommend freeCodeCamp to a friend?Would you recommend freeCodeCamp to a friend?</label>
-                    <label for="defenately">
+                    <label id="foo">Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="defenately" class="baze">
                         <br>
                         <input type="radio" id="defenately" name="options" value="defenately" checked>Defenately
                     </label>
-                    <label for="maybe">
+                    <label for="maybe" class="baze">
                         <br>
                         <input type="radio" id="maybe" name="options" value="maybe">Maybe
                     </label>
-                    <label for="notsure">
+                    <label for="notsure" class="baze">
                         <br>
                         <input type="radio" id="notsure" name="options" value="notsure">Not Sure
                     </label>
                 </div>
             </div>
             <div id="form-group">
-                <label for="drop">What is your favorite feature of freeCodeCamp?<br>
-                    <select id="drop" name="drop" required="">
-                        <option disabled="" selected="" value="">Select an Option</option>
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="Community">Community</option>
-                    </select>
-                </label>
+                <div class="dropdown3">
+                    <label for="drop" id="zero">What is your favorite feature of freeCodeCamp?<br>
+                        <select id="drop" name="drop" required="">
+                            <option disabled="" selected="" value="">Select an Option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="projects">Projects</option>
+                            <option value="Community">Community</option>
+                        </select>
+                    </label>
+                </div>
             </div>
             <div id="form-group">
-                <label>What would you like to see improved? (Check all that apply)</label><br>
-                <label for="front-projects">
-                    <input type="checkbox" name="front-projects" id="front-projects" value="Front-end projects">Front-end Projects
-                </label>
-                <br>
-                <label for="back-projects">
-                    <input type="checkbox" name="back-projects" id="back-projects" value="Back-end projects">Back-end Projects
-                </label>
-                <br>
-                <label for="Data Visualization">
-                    <input type="checkbox" name="Data Visualization" id="Data Visualization" value="Data Visualization">Data Visualization
-                </label>
-                <br>
-                <label for="Challenges">
-                    <input type="checkbox" name="Challenges" id="Challenges" value="Challenges">Challenges
-                </label><br>
-                <label for="Open Source Community">
-                    <input type="checkbox" name="Open Source Community" id="Open Source Community" value="Open Source Community">Open Source Community
-                </label><br>
-                <label for="Gitter help rooms">
-                    <input type="checkbox" name="Gitter help rooms" id="Gitter help rooms" value="Gitter help rooms">Gitter help rooms
-                </label><br>
-                <label for="Videos">
-                    <input type="checkbox" name="Videos" id="Videos" value="Videos">Videos
-                </label><br>
-                <label for="Additional Courses">
-                    <input type="checkbox" name="Additional Courses" id="Additional Courses" value="Additional Courses">Additional Courses
-                </label>
+                <div id="one">
+                    <label>What would you like to see improved? (Check all that apply)</label><br>
+                    <label for="front-projects" class="baze1">
+                        <input type="checkbox" name="front-projects" id="front-projects" value="Front-end projects">Front-end Projects
+                    </label>
+                    <br>
+                    <label for="back-projects" class="baze1">
+                        <input type="checkbox" name="back-projects" id="back-projects" value="Back-end projects">Back-end Projects
+                    </label>
+                    <br>
+                    <label for="Data Visualization" class="baze1">
+                        <input type="checkbox" name="Data Visualization" id="Data Visualization" value="Data Visualization">Data Visualization
+                    </label>
+                    <br>
+                    <label for="Challenges" class="baze1">
+                        <input type="checkbox" name="Challenges" id="Challenges" value="Challenges">Challenges
+                    </label><br>
+                    <label for="Open Source Community" class="baze1">
+                        <input type="checkbox" name="Open Source Community" id="Open Source Community" value="Open Source Community">Open Source Community
+                    </label><br>
+                    <label for="Gitter help rooms" class="baze1">
+                        <input type="checkbox" name="Gitter help rooms" id="Gitter help rooms" value="Gitter help rooms">Gitter help rooms
+                    </label><br>
+                    <label for="Videos" class="baze1">
+                        <input type="checkbox" name="Videos" id="Videos" value="Videos">Videos
+                    </label><br>
+                    <label for="Additional Courses" class="baze1">
+                        <input type="checkbox" name="Additional Courses" id="Additional Courses" value="Additional Courses">Additional Courses
+                    </label>
+                </div>    
             </div>
             <div id="form-group">
-                <label>Any comments or suggestions?</label>
+                <label id="two">Any comments or suggestions?</label>
                 <br>
-                <textarea placeholder="Enter your comment here"></textarea>
+                <textarea placeholder="Enter your comment here..."></textarea>
             </div>
             <div id="form-group">
                 <button type="submit" id="submit">Submit</button>
