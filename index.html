@@ -9,14 +9,14 @@
     <title>Survey_form</title>
 </head>
 <body>
-    <header><h1 id="title">freecodecamp Survey Form</h1>
+    <header><h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description"><em>Thank You for taking the time to help us improve the platform</em></p>
     </header>
     <main>
         <form id="survey-form">
             <div id="form-group">
                 <label for="name" id="name-label">Name
-                    <br>
+
                     <input type="text" id="name" name="name" required placeholder="Enter your name">
                 </label><br>
             </div>
@@ -31,31 +31,35 @@
                 </label><br>
             </div>
             <div id="form-group">
-                <label for="dropdown">Which Option Best Describes Your Current Role?
-                    <br><select id="dropdown" name="dropdown">
-                        <option disabled="" selected="" value="">Select current role</option>
-                        <option value="student">Student</option>
-                        <option value="full time job">Full Time Job</option>
-                        <option value="full time learner">Full Time Learner</option>
-                        <option value="prefer not to say">Prefer Not To Say</option>
-                        <option value="others">Others</option>
-                    </select>
-                </label>
+                <div class="dropdown">
+                    <label for="dropdown">Which Option Best Describes Your Current Role?
+                        <br><select id="dropdown" name="dropdown">
+                            <option disabled="" selected="" value="">Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="full time job">Full Time Job</option>
+                            <option value="full time learner">Full Time Learner</option>
+                            <option value="prefer not to say">Prefer Not To Say</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </label>
+                </div>
             </div>
             <div id="form-group">
-                <label>Would you recommend freeCodeCamp to a friend?Would you recommend freeCodeCamp to a friend?</label>
-                <label for="defenately">
-                    <br>
-                    <input type="radio" id="defenately" name="options" value="defenately" checked>Defenately
-                </label>
-                <label for="maybe">
-                    <br>
-                    <input type="radio" id="maybe" name="options" value="maybe">Maybe
-                </label>
-                <label for="notsure">
-                    <br>
-                    <input type="radio" id="notsure" name="options" value="notsure">Not Sure
-                </label>
+                <div id="dropdown2">
+                    <label>Would you recommend freeCodeCamp to a friend?Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="defenately">
+                        <br>
+                        <input type="radio" id="defenately" name="options" value="defenately" checked>Defenately
+                    </label>
+                    <label for="maybe">
+                        <br>
+                        <input type="radio" id="maybe" name="options" value="maybe">Maybe
+                    </label>
+                    <label for="notsure">
+                        <br>
+                        <input type="radio" id="notsure" name="options" value="notsure">Not Sure
+                    </label>
+                </div>
             </div>
             <div id="form-group">
                 <label for="drop">What is your favorite feature of freeCodeCamp?<br>
