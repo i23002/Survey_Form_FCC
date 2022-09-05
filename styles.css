@@ -120,5 +120,14 @@ button{
     background-color: #37af65;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.125rem;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+#footer{
+    margin-left: 20px;
 }
 
